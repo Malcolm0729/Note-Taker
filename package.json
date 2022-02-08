@@ -1,0 +1,9 @@
+{
+    "name": "note-taker",
+    "version": "1.0.0",
+    "description": "made for users that need to keep track of things.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    }
+}
