@@ -5,7 +5,7 @@ const {
     readFromFile,
     ReadAndAppend,
     writeToFile,
-} = require('../helpers/Utils.js');
+} = require('../helpers/fsUtils.js');
 
 notes.get('/', (req, res) => {
     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
